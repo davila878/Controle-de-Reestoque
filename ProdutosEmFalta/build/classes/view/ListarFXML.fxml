@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ListarFXMLController">
+   <children>
+      <Label layoutX="190.0" layoutY="10.0" text="Produtos a Solicitar">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="voltar" layoutX="15.0" layoutY="356.0" mnemonicParsing="false" onAction="#voltar" prefHeight="27.0" prefWidth="59.0" style="-fx-background-color: gray;" text="voltar" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tabela" layoutX="15.0" layoutY="54.0" prefHeight="296.0" prefWidth="571.0">
+        <columns>
+          <TableColumn fx:id="cNome" prefWidth="302.0" text="Nome do produto" />
+          <TableColumn fx:id="cMarca" prefWidth="166.0" text="Marca" />
+            <TableColumn fx:id="cQuantidade" prefWidth="102.0" text="Quantidade" />
+        </columns>
+      </TableView>
+      <Button fx:id="Editar" layoutX="520.0" layoutY="356.0" mnemonicParsing="false" onAction="#Editar" prefHeight="30.0" prefWidth="66.0" style="-fx-background-color: gray;" text="Editar" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Excluir" layoutX="446.0" layoutY="356.0" mnemonicParsing="false" onAction="#Excluir" prefHeight="30.0" prefWidth="66.0" style="-fx-background-color: gray;" text="Excluir" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

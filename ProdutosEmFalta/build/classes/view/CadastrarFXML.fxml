@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightgray;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controller.CadastrarFXMLController">
+   <children>
+      <Label layoutX="190.0" layoutY="14.0" text="Produtos a Solicitar">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnC" layoutX="244.0" layoutY="316.0" mnemonicParsing="false" onAction="#btnC" prefHeight="70.0" prefWidth="119.0" style="-fx-background-color: gray;" text="Cadastrar" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="nProduto" layoutX="180.0" layoutY="99.0" prefHeight="39.0" prefWidth="240.0" />
+      <TextField fx:id="nMarca" layoutX="183.0" layoutY="174.0" prefHeight="39.0" prefWidth="240.0" />
+      <TextField fx:id="qSolicitar" layoutX="180.0" layoutY="246.0" prefHeight="39.0" prefWidth="240.0" />
+      <Label layoutX="234.0" layoutY="74.0" text="Nome do produto:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="149.0" text="Marca:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="221.0" text="Quantidade a Solicitar:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="voltar" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#voltar" prefHeight="35.0" prefWidth="56.0" style="-fx-background-color: gray;" text="voltar" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

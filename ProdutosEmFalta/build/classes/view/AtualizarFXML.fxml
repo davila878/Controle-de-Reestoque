@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AtualizarFXMLController">
+   <children>
+      <Button fx:id="bcancelar" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="34.0" prefWidth="65.0" style="-fx-background-color: gray;" text="Cancelar" textFill="WHITE" />
+      <Button fx:id="bSalvar" layoutX="244.0" layoutY="307.0" mnemonicParsing="false" onAction="#salvar" prefHeight="72.0" prefWidth="113.0" style="-fx-background-color: gray;" text="Salvar" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Label layoutX="233.0" layoutY="14.0" text="Atualizar">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="273.0" layoutY="85.0" text="Produto">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="155.0" text="Marca">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="227.0" layoutY="223.0" text="Quantidade a Solicitar">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="aProduto" layoutX="199.0" layoutY="111.0" prefHeight="34.0" prefWidth="202.0" />
+      <TextField fx:id="aMarca" layoutX="199.0" layoutY="176.0" prefHeight="34.0" prefWidth="202.0" />
+      <TextField fx:id="aSolicitar" layoutX="199.0" layoutY="244.0" prefHeight="34.0" prefWidth="202.0" />
+   </children>
+</AnchorPane>
